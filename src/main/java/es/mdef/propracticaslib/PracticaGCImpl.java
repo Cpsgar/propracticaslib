@@ -5,6 +5,9 @@ public class PracticaGCImpl extends PracticaImpl implements PracticaGC {
 	private boolean relacionInvestigacion;
 	private String alumnosPropuestos;
 	
+	public Tipo_Practica getTipoPractica() {
+		return Tipo_Practica.GuardiaCivil;
+	}
 	public boolean isRelacionInvestigacion() {
 		return relacionInvestigacion;
 	}

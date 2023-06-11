@@ -5,6 +5,10 @@ public class PracticaDefensaImpl extends PracticaImpl implements PracticaDefensa
 	private boolean solicitudPreviaJCISAT;
 	private String hps;
 	
+	public Tipo_Practica getTipoPractica() {
+		return Tipo_Practica.Defensa;
+	}
+	
 	public boolean isSolicitudPreviaJCISAT() {
 		return solicitudPreviaJCISAT;
 	}
