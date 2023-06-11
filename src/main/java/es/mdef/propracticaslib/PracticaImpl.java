@@ -97,6 +97,12 @@ public class PracticaImpl implements Practica {
 	public void setAlumnos(List<Alumno> alumnos) {
 		this.alumnos = alumnos;
 	}
-	
+	public Integer getAlumnosAsignados() {
+		if (getAlumnos() != null) {
+			return  getAlumnos().size();
+		}else {
+			return 0;
+		}
+	}
 	
 }

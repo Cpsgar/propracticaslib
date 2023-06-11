@@ -17,6 +17,7 @@ public interface Practica {
 	int getTutorTelefono();
 	String getTutorEmail();
 	ZonedDateTime getFechaComienzo();
+	Integer getAlumnosAsignados();
 	List<Alumno> getAlumnos();
 
 }

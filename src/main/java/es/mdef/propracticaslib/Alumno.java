@@ -7,5 +7,6 @@ public interface Alumno {
 	String getDni();
 	Integer getPromocionDim();
 	String getInstitucion();
+	String getEmpleo();
 	Practica getPracticaAsignada();
 }

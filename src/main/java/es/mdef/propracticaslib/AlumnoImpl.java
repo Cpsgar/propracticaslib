@@ -7,6 +7,7 @@ public class AlumnoImpl implements Alumno {
 	private String dni;
 	private Integer promocionDim;
 	private String institucion;
+	private String empleo;
 	private Practica practicaAsignada;
 
 	public String getNombre() {
@@ -38,6 +39,12 @@ public class AlumnoImpl implements Alumno {
 	}
 	public void setInstitucion(String institucion) {
 		this.institucion = institucion;
+	}
+	public String getEmpleo() {
+		return empleo;
+	}
+	public void setEmpleo(String empleo) {
+		this.empleo = empleo;
 	}
 	public Practica getPracticaAsignada() {
 		return practicaAsignada;
